@@ -69,7 +69,10 @@ hr{
 }
 .dictionary{
     padding-left:2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    background-color:#121212;
+    border-radius:.3rem;
     
 }
 .container{
@@ -120,9 +123,7 @@ button {
 }
 form {
     background-color: #4654e1;
-    width: 300px;
-    height: 44px;
-    border-radius: 5px;
+    border-radius: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,9 +132,13 @@ form {
     all: unset;
     font: 16px system-ui;
     color: #fff;
-    height: 100%;
+    height: 10%;
     width: 100%;
-    padding: 6px 10px;
+    padding: 0rem 0rem;
+    margin-bottom:2rem; 
+    background-color:#121212;
+    border-radius:.3rem;
+    text-align: center;
   }
   ::placeholder {
     color: #fff;
