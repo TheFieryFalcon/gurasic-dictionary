@@ -20,10 +20,10 @@
         </div>
         <input type="text" v-model="searchQuery" placeholder="Search...">
         <br>
-        <div v-for="(item, index) in filteredDictionary" class="dictionary">
+        <div v-for="item in filteredDictionary" class="dictionary">
             <br/>
             <h2>{{ item.word }}</h2>
-            <div v-for="use in item.uses">
+            <div v-for="(use, index) in item.uses">
                 
                 <br/>
                 <h4>strong>{{ index }}</strong></h4><
