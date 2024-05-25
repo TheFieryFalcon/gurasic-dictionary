@@ -1,13 +1,12 @@
 Dictionary = [
     {
-        "word": "janja",
+        "word": "based",
         "uses": [
             {
-                "type": "COMPOUND",
-                "compound": "jan + nja",
-                "definition": "Catperson and catpeople",
-                "example": "janja li suwi.",
-                "exampleTranslation": "Catpeople are cute."
+                "type": "Exclaimation",
+                "definition": "A subdued exclaimation of respect",
+                "example": '"I did ur mom last night" "based"',
+                "exampleTranslation": '"I did ur mom last night" "cool"'
             }
         ]
     },
